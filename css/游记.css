@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrap {
+    font-size: 18px;
+    color: #3c3d46;
+}
+
+.wrap .logo img {
+    margin-top: 7px;
+    vertical-align: middle;
+}
+
+.wrap .nav li {
+    list-style: none;
+    float: left;
+    width: 80px;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+.wrap .nav {
+    margin-left: 159px;
+}
+
+a {
+    text-decoration: none;
+    color: #3c3d46;
+}
+
+.wrap .act {
+    color: #fefeff !important;
+    background-color: #5696ff;
+}
+
+.wrap .nav li:hover {
+    background-color: #5696ff;
+}
+
+.wrap .register {
+    line-height: 72px;
+}
+
+.wrap .register .line {
+    width: 1px;
+    height: 14px;
+    color: #999999;
+    margin: 0 10px;
+}
+
+.function {
+    height: 58px;
+    background-color: #666666;
+}
+
+.function .left {
+    width: 102px;
+    height: 58px;
+    line-height: 58px;
+}
+
+.function .line {
+    width: 1px;
+    height: 10px;
+    color: #f3f1f1;
+}
+
+.function .left .search {
+    margin-left: 41px;
+    margin-top: 5px;
+}
+
+.function .right {
+    width: 302px;
+    height: 58px;
+    line-height: 58px;
+}
+
+.function .right .clock,
+.note,
+.person {
+    margin-left: 40px;
+    margin-right: 35px;
+    margin-top: 8px;
+}
+
+.main {
+    margin-top: 56px;
+}
+
+.main .aside {
+    width: 356px;
+}
+
+.aside .article,
+.aside .pic {
+    width: 209px;
+    height: 62px;
+    line-height: 62px;
+    border: 1px solid #dcdcdc;
+    font-size: 26px;
+    color: #5696ff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.aside .pic {
+    margin-top: 44px;
+}
+
+.aside .line {
+    width: 358px;
+    height: 1px;
+    margin-top: 56px;
+    background-color: #dcdcdc;
+}
+
+.aside .place {
+    height: 270px;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 55px;
+}
+
+.aside .title {
+    width: 305px;
+    height: 87px;
+    padding: 0 30px 0 23px;
+}
+
+.aside .place .tit {
+    font-size: 20px;
+    color: #333333;
+    margin-top: 20px;
+
+}
+
+.aside .place .time {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 11px;
+}
+
+.aside .title .fr {
+    margin-top: 20px;
+}
+
+.aside .little_place {
+    height: 90px;
+    margin-top: 40px;
+}
+
+.aside .little_place .word {
+    margin-left: 20px;
+    margin-top: 28px;
+}
+
+.aside .little_place .tit {
+    font-size: 20px;
+    color: #333333;
+}
+
+.aside .little_place .time {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 11px;
+}
+
+.aside .about {
+    margin-top: 45px;
+}
+
+.aside .about h3 {
+    font-size: 22px;
+    color: #333333;
+}
+
+.aside .about p {
+    margin-top: 23px;
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+}
+
+.aside .more {
+    margin-top: 30px;
+    width: 122px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    border: 1px solid #d1d0d0;
+}
+
+.block .record {
+    width: 772px;
+    height: 730px;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 75px;
+}
+
+.block .record .title {
+    width: 696px;
+    height: 110px;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 0 38px;
+}
+
+.block .record .title .china {
+    font-size: 22px;
+    color: #333333;
+    margin-top: 30px;
+}
+
+.block .record .title .english {
+    font-size: 12px;
+    color: #999999;
+    margin-top: 10px;
+}
+
+.block .record .title .fr {
+    width: 178px;
+    height: 110px;
+    border-left: 1px solid #dcdcdc;
+    font-size: 12px;
+    position: relative;
+}
+
+.block .record .title .fr .time {
+    color: #333333;
+    margin-top: 30px;
+    text-align: right;
+}
+
+.block .record .title .fr .Ben {
+    color: #666666;
+    margin-top: 20px;
+    margin-left: 108px;
+}
+
+.block .record .title .fr img {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+
+.block .content {
+    width: 698px;
+    height: 563px;
+    padding: 59px 37px 0;
+}
+
+.block .content .text {
+    font-size: 16px;
+    color: #666666;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+.block .content .continue {
+    margin-top: 20px;
+}
+
+.block .content .continue .read {
+    width: 110px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #333333;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+}
+
+.block .content .continue .like {
+    width: 290px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #999999;
+}
+
+.block .content .continue .like .line {
+    width: 1px;
+    height: 16px;
+    line-height: 50px;
+    background-color: #dcdcdc;
+    margin: 16px 25px 0 23px;
+}
+
+.page {
+    margin-top: 129px;
+}
+
+.change {
+    width: 200px;
+    height: 59px;
+    border: 1px solid #dcdcdc;
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    line-height: 59px;
+}
+
+.page .num li {
+    width: 60px;
+    line-height: 58px;
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+
+.page .num .act {
+    color: #5696ff;
+}
+
+.page .num li:hover {
+    color: #5696ff;
+}
+
+.bottom {
+    height: 133px;
+    margin-top: 67px;
+    background-color: #5696ff;
+}
+
+.bottom .info {
+    width: 660px;
+    height: 100px;
+    margin: auto;
+    color: #fafafc;
+    line-height: 35px;
+    padding-top: 33px;
+}

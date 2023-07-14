@@ -1,0 +1,657 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: #f3f3f3;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrap {
+    width: 1200px;
+    height: 72px;
+    margin: auto;
+    font-size: 18px;
+
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.logo img {
+    margin-top: 7px;
+    vertical-align: middle;
+}
+/* 头部开始 */
+.logo img {
+    margin-top: 7px;
+    vertical-align: middle;
+}
+
+.wrap .nav li {
+    list-style: none;
+    float: left;
+    width: 80px;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    margin-right: 24px;
+    color: #3c3d46;
+}
+
+.nav {
+    margin-left: 159px;
+}
+
+a {
+    text-decoration: none;
+    color: #3c3d46;
+}
+
+.index {
+    color: #fefeff !important;
+    background-color: #5696ff;
+}
+
+/* .nav li:hover {
+    color: #fefefe;
+} */
+
+.register div {
+    float: left;
+    line-height: 72px;
+}
+
+.register .line {
+    width: 1px;
+    height: 14px;
+    color: #999999;
+    margin: 0 10px;
+}
+/* banner图 */
+.banner {
+    width: 100%;
+    height: 600px;
+    /* background: url(../imgs/banner.jpg) no-repeat center; */
+    /* padding-top: 552px; */
+    /* position: relative; */
+}
+.banner>img {
+    width: 100%;
+    height: 100%;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+/* 区域搜索框 */
+.area {
+    width: 330px;
+    height: 34px;
+    line-height: 34px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.area .title {
+    font-size: 36px;
+    color: #5696ff;
+    margin: 0 14px;
+}
+
+.area .line {
+    width: 79px;
+    height: 7px;
+    background-color: #666666;
+    margin-top: 13px;
+}
+
+.second_title {
+    font-size: 22px;
+    color: #939393;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.search {
+    width: 350px;
+    margin: auto;
+    margin-top: 70px;
+    position: relative;
+}
+
+.search input {
+    width: 320px;
+    height: 10px;
+    border: 1px solid #939393;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #999999;
+    padding: 14px;
+
+}
+
+.search img {
+    position: absolute;
+    top: 9px;
+    right: 14px;
+}
+
+.pic_list {
+    width: 1211px;
+    height: 373px;
+    margin: auto;
+    margin-top: 57px;
+}
+
+.pic {
+    width: 119px;
+    height: 373px;
+    float: left;
+    margin-right: 4px;
+}
+
+.sichuan {
+    background-image: url(../imgs/sichuan.jpg);
+}
+
+.dali {
+    background-image: url(../imgs/dali.jpg);
+}
+
+.denmark {
+    background-image: url(../imgs/denmark.jpg);
+    width: 596px;
+}
+
+.japan {
+    background-image: url(../imgs/japan.jpg);
+}
+
+.italy {
+    background-image: url(../imgs/italy.jpg);
+}
+
+.france {
+    background-image: url(../imgs/france.jpg);
+    margin-right: 0;
+}
+
+.shadow {
+    height: 373px;
+    background-color: rgba(21, 21, 21, .5);
+}
+
+.shadow p {
+    color: #fbfcfd;
+    font-size: 28px;
+    line-height: 30px;
+    padding-top: 70px;
+    padding-left: 30px;
+}
+
+.play {
+    position: relative;
+}
+
+.play img {
+    position: absolute;
+    top: 150px;
+    left: 270px;
+}
+
+.more,
+.second_more {
+    width: 160px;
+    height: 54px;
+    line-height: 54px;
+    border: 2px solid #5696ff;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 73px;
+    font-size: 26px;
+    color: #5696ff;
+    text-align: center;
+}
+
+.second_more {
+    color: #fefefe;
+    background-color: #5696ff;
+}
+
+.tehui {
+    margin-top: 108px;
+}
+
+.travel {
+    width: 1201px;
+    height: 684px;
+    margin: auto;
+    margin-top: 55px;
+}
+
+.travel .left {
+    width: 893px;
+    height: 684px;
+}
+
+.travel .right {
+    width: 300px;
+    height: 684px;
+}
+
+.left_up {
+    margin-bottom: 8px;
+}
+
+.left_up .fl {
+    background-image: url(../imgs/denmark56.jpg);
+    width: 441px;
+    height: 307px;
+}
+
+.left_up .fr {
+    background-image: url(../imgs/yuenan12\ 3.jpg);
+    width: 442px;
+    height: 307px;
+}
+
+.left_down .fl {
+    background-image: url(../imgs/thailand56.jpg);
+    width: 362px;
+    height: 369px;
+}
+
+.left_down .fr {
+    background-image: url(../imgs/malaysia46.jpg);
+    width: 521px;
+    height: 369px;
+}
+
+.right_up {
+    background-image: url(../imgs/japan56.jpg);
+    width: 300px;
+    height: 472px;
+    margin-bottom: 8px;
+}
+
+.right_down {
+    background-image: url(../imgs/italy46.jpg);
+    width: 300px;
+    height: 204px;
+}
+
+.travel p {
+    font-size: 22px;
+    color: #fff;
+    padding-top: 47px;
+    padding-left: 57px;
+}
+
+.left_up .fr .shadow {
+    background-color: rgba(21, 21, 21, .5);
+    width: 393px;
+    height: 260px;
+    margin: auto;
+    margin-top: 24px;
+    border: 4px solid #f4f8fa;
+}
+
+.left_up .shadow .title {
+    font-size: 22px;
+    color: #fff;
+    padding-left: 24px;
+    padding-top: 21px;
+}
+
+.left_up .price {
+    width: 314px;
+    height: 21px;
+    line-height: 21px;
+    margin: auto;
+    margin-top: 39px;
+}
+
+.left_up .price .line {
+    width: 90px;
+    height: 4px;
+    background-color: #fff;
+    float: left;
+    margin-top: 9px;
+}
+
+.left_up .price .pri {
+    font-size: 26px;
+    color: #fff;
+    float: left;
+    margin: 0 28px;
+}
+
+.mexico {
+    width: 1200px;
+    height: 745px;
+    margin: auto;
+    margin-top: 229px;
+    background-image: url(../imgs/mexico1.jpg);
+}
+
+.mexico img {
+    border: 42px solid #f3f3f3;
+    margin-left: 611px;
+    margin-top: -174px;
+}
+
+.mexico_news,
+.newzealand_news {
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 30px;
+    color: #666666;
+}
+
+.mexico_news .fl .line,
+.newzealand_news .fl .line {
+    width: 132px;
+    height: 7px;
+    background-color: #666666;
+    margin-bottom: 29px;
+    margin-left: auto;
+}
+
+.mexico_news .fl,
+.newzealand_news .fl {
+    text-align: right;
+    margin-left: 118px;
+}
+
+.mexico_news .fr {
+    width: 559px;
+    height: 565px;
+    font-size: 24px;
+}
+
+.mexico_news .fr p {
+    text-indent: 2em;
+    margin-bottom: 25px;
+}
+
+.whole {
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 26px;
+    color: #333333;
+    margin-top: 50px;
+    border: 3px solid #999999;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.article .whole {
+    border: 3px solid #97a3a9;
+    color: #fff;
+    margin-top: 130px;
+}
+
+.newzealand {
+    width: 1200px;
+    height: 781px;
+    margin: auto;
+    margin-top: 73px;
+    background: url(../imgs/new\ zealand1.jpg) no-repeat;
+}
+
+.newzealand img {
+    border: 47px solid #f3f3f3;
+    margin-left: 481px;
+    margin-top: 64px;
+}
+
+.newzealand_news .fr {
+    width: 561px;
+    height: 360px;
+    font-size: 24px;
+    margin-top: -194px;
+    line-height: 56px;
+}
+
+.article {
+    width: 1200px;
+    margin: auto;
+    margin-top: 55px;
+}
+
+.article .fl {
+    background: url(../imgs/article-bg.jpg);
+    width: 730px;
+    height: 960px;
+}
+
+.article .shadow {
+    width: 410px;
+    height: 895px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 65px 55px 0 37px;
+}
+
+.article .shadow h4 {
+    font-size: 24px;
+    color: #5696ff;
+    font-weight: 400;
+}
+
+.article .fl .shadow .tit {
+    font-size: 24px;
+    color: #fefefe;
+    text-indent: 0;
+    margin-top: 75px;
+}
+
+.article .fl .shadow .second_tit {
+    font-size: 20px;
+    color: #fff;
+    line-height: 33px;
+}
+
+.article .fl .shadow .time {
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    margin-top: 25px;
+}
+
+.article .fl .shadow .text {
+    color: #fff;
+    font-size: 18px;
+    text-indent: 2em;
+    line-height: 46px;
+    margin-top: 14px;
+}
+
+.article .fr .fr_up,
+.article .fr .fr_down {
+    width: 373px;
+    height: 423px;
+    background-color: #fff;
+    box-shadow: #d1cfcf 5px 5px 20px 10px;
+    padding: 36px 35px 0;
+}
+
+.article .fr .fr_up {
+    margin-bottom: 42px;
+}
+
+.article .fr .pic {
+    width: 375px;
+    height: 297px;
+}
+
+.article .fr .fr_up .pic {
+    background: url(../imgs/share1.jpg);
+}
+
+.article .fr .fr_down .pic {
+    background: url(../imgs/share2.jpg);
+}
+
+.article .fr .pic .word {
+    font-size: 12px;
+    color: #fff;
+    width: 60px;
+    height: 18px;
+    line-height: 18px;
+    background-color: #a3c1de;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 16px;
+}
+
+.article .fr .pic .dusk {
+    font-size: 12px;
+    color: #fff;
+    width: 30px;
+    height: 18px;
+    line-height: 18px;
+    background-color: #3a68b7;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 16px;
+}
+
+.article .fr_up .pic .dusk {
+    background-color: #a3c1de;
+}
+
+.article .fr_down .pic .word {
+    background-color: #3a68b7;
+}
+
+.article .fr .info .time {
+    font-size: 12px;
+    color: #333333;
+    line-height: 24px;
+}
+
+.article .fr .info .title {
+    font-size: 14px;
+    color: #333333;
+    line-height: 24px;
+}
+
+.article .fr .info .text {
+    color: #666666;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.article .fr .info .text a {
+    text-decoration: none;
+    color: #5696ff;
+}
+
+.photo {
+    width: 1160px;
+    height: 470px;
+    margin: auto;
+    margin-top: 52px;
+    padding: 28px 20px 0;
+    box-shadow: #d1cfcf 5px 5px 20px 10px;
+}
+
+.photo .title {
+    font-size: 24px;
+    color: #5696ff;
+}
+
+.photo .photo_list {
+    margin-top: 20px;
+}
+
+.photo .photo_list .fl {
+    margin-right: 20px;
+    color: #666666;
+}
+
+.photo .photo_list .list3 {
+    margin-right: 0;
+}
+
+.photo .photo_list .time {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.photo .photo_list .tit {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.photo .arrows .fl,
+.photo .arrows .fr {
+    width: 14px;
+    height: 24px;
+    background-color: #fff;
+    padding: 14px 20px;
+    margin-top: -252px;
+}
+
+.bottom {
+    height: 133px;
+    margin-top: 67px;
+    background-color: #5696ff;
+}
+
+.bottom .info {
+    width: 660px;
+    height: 100px;
+    margin: auto;
+    color: #fafafc;
+    line-height: 35px;
+    padding-top: 33px;
+}
+.area {
+    position: relative;
+} 
+.Back-top {
+    display: none;
+    position: fixed;
+    top: 288px;
+    right: 123px;
+    width: 50px;
+    height: 50px;
+}
+.Back-top img {
+    width: 100%;
+}

@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrap {
+    font-size: 18px;
+}
+
+.wrap .logo img {
+    margin-top: 7px;
+    vertical-align: middle;
+}
+
+.wrap .nav li {
+    list-style: none;
+    float: left;
+    width: 80px;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+.wrap .nav {
+    margin-left: 159px;
+}
+
+a {
+    text-decoration: none;
+    color: #3c3d46;
+}
+
+.wrap .act {
+    color: #fefeff !important;
+    background-color: #5696ff;
+}
+
+.wrap .nav li:hover {
+    background-color: #5696ff;
+}
+
+.wrap .register {
+    line-height: 72px;
+}
+
+.wrap .register .line {
+    width: 1px;
+    height: 14px;
+    color: #999999;
+    margin: 0 10px;
+}
+
+.function {
+    height: 58px;
+    background-color: #666666;
+}
+
+.function .left {
+    width: 102px;
+    height: 58px;
+    line-height: 58px;
+}
+
+.function .line {
+    width: 1px;
+    height: 10px;
+    color: #f3f1f1;
+}
+
+.function .left .search {
+    margin-left: 41px;
+    margin-top: 5px;
+}
+
+.function .right {
+    width: 302px;
+    height: 58px;
+    line-height: 58px;
+}
+
+.function .right .clock,
+.note,
+.person {
+    margin-left: 40px;
+    margin-right: 35px;
+    margin-top: 8px;
+}
+
+.banner {
+    margin-top: 56px;
+}
+
+.banner .nav {
+    width: 72px;
+    height: 524px;
+    padding: 36px 44px 0;
+    background-color: #666666;
+}
+
+.banner .nav li {
+    list-style: none;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner .nav .line {
+    width: 70px;
+    height: 1px;
+    background-color: #b2b2b2;
+    margin: 17px 0;
+}
+
+.advice {
+    margin-top: 55px;
+}
+
+.advice .title {
+    font-size: 24px;
+    color: #333333;
+}
+
+.advice .info {
+    width: 1172px;
+    height: 427px;
+    border: #dcdcdc solid 1px;
+    background-color: #fff;
+    margin-top: 25px;
+    padding: 47px 0 0 28px;
+}
+
+.advice .info .info_list {
+    width: 202px;
+    margin-right: 32px;
+}
+
+.advice .info .pic {
+    width: 180px;
+    height: 238px;
+    border: #cccbcb 1px solid;
+    box-shadow: #d1cfcf 5px 5px 20px 10px;
+    font-size: 18px;
+    color: #fefefe;
+    line-height: 30px;
+    padding: 44px 0 0 20px;
+}
+
+.advice .info_list .tit {
+    margin-top: 18px;
+    font-size: 20px;
+    color: #5696ff;
+}
+
+.advice .info_list .download {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    width: 200px;
+    line-height: 40px;
+    background-color: #5696ff;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.guide {
+    margin-top: 54px;
+}
+
+.guide a {
+    text-decoration: none;
+    color: #5696ff;
+}
+
+.guide .aside {
+    width: 352px;
+}
+
+.guide .aside h3 {
+    font-size: 18px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.guide .aside .down {
+
+    margin-top: 15px;
+}
+
+.guide .aside .one {
+    margin-top: 20px;
+}
+
+.guide .aside .down .word {
+    width: 304px;
+    height: 37px;
+    line-height: 37px;
+    margin-left: 8px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.guide .aside .ad {
+    width: 318px;
+    height: 134px;
+    margin-top: 38px;
+    background: url(../imgs/area-guide.jpg);
+    font-size: 28px;
+    color: #fff;
+    padding-top: 62px;
+    padding-left: 34px;
+}
+
+.area_guide {
+    width: 812px;
+}
+
+.area_guide h3 {
+    font-size: 24px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.area_guide .second_title {
+    font-size: 18px;
+    color: #333333;
+    margin-top: 22px;
+}
+
+.area_guide .guide_list {
+    width: 813px;
+    height: 312px;
+    margin-top: 25px;
+}
+
+.area_guide .list {
+    width: 184px;
+    height: 312px;
+    margin-right: 20px;
+}
+
+.guide_list .list .pic {
+    width: 160px;
+    height: 208px;
+    border: #cccbcb 1px solid;
+    box-shadow: #d1cfcf 5px 5px 20px 10px;
+    font-size: 18px;
+    color: #fefefe;
+    line-height: 30px;
+    padding: 44px 0 0 20px;
+}
+
+.guide_list .list .tit {
+    margin-top: 14px;
+}
+
+.guide_list .list .time {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.page {
+    margin-top: 80px;
+}
+
+.change {
+    width: 200px;
+    height: 59px;
+    border: 1px solid #dcdcdc;
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    line-height: 59px;
+}
+
+.page .num li {
+    width: 50px;
+    line-height: 58px;
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+
+.page .num .act {
+    color: #5696ff;
+}
+
+.page .num li:hover {
+    color: #5696ff;
+}
+
+.bottom {
+    height: 133px;
+    margin-top: 67px;
+    background-color: #5696ff;
+}
+
+.bottom .info {
+    width: 660px;
+    height: 100px;
+    margin: auto;
+    color: #fafafc;
+    line-height: 35px;
+    padding-top: 33px;
+}

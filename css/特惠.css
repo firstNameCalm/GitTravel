@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrap {
+    font-size: 18px;
+    color: #3c3d46;
+}
+
+.wrap .logo img {
+    margin-top: 7px;
+    vertical-align: middle;
+}
+
+.wrap .nav li {
+    list-style: none;
+    float: left;
+    width: 80px;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+.wrap .nav {
+    margin-left: 159px;
+}
+
+a {
+    text-decoration: none;
+    color: #3c3d46;
+}
+
+.wrap .act {
+    color: #fefeff !important;
+    background-color: #5696ff;
+}
+
+.wrap .nav li:hover {
+    background-color: #5696ff;
+}
+
+.wrap .register {
+    line-height: 72px;
+}
+
+.wrap .register .line {
+    width: 1px;
+    height: 14px;
+    color: #999999;
+    margin: 0 10px;
+}
+
+.function {
+    height: 58px;
+    background-color: #666666;
+}
+
+.function .left {
+    width: 102px;
+    height: 58px;
+    line-height: 58px;
+}
+
+.function .line {
+    width: 1px;
+    height: 10px;
+    color: #f3f1f1;
+}
+
+.function .left .search {
+    margin-left: 41px;
+    margin-top: 5px;
+}
+
+.function .right {
+    width: 302px;
+    height: 58px;
+    line-height: 58px;
+}
+
+.function .right .clock,
+.note,
+.person {
+    margin-left: 40px;
+    margin-right: 35px;
+    margin-top: 8px;
+}
+
+.banner {
+    height: 350px;
+    background: url(../imgs/ticket.jpg);
+    margin-top: 55px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .ticket {
+    width: 220px;
+    height: 82px;
+    background-color: #5696ff;
+    padding: 0 25px;
+    color: #fff;
+    margin-top: 233px;
+}
+
+.banner .ticket .chinese {
+    font-size: 45px;
+    font-family: '[FZYANS_DAJW]';
+    line-height: 82px;
+}
+
+.banner .ticket .english {
+    font-size: 18px;
+    margin-top: 18px;
+    line-height: 25px;
+}
+
+.banner .info {
+    width: 140px;
+    height: 322px;
+    padding: 28px 31px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.banner .info .word {
+    font-size: 33px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner .info .word p {
+    font-size: 15px;
+}
+
+.banner .code {
+    text-align: center;
+    margin-top: 29px;
+}
+
+.banner .info .go {
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.arrow {
+    text-align: center;
+    margin: 16px 0;
+}
+
+.banner input {
+    width: 92px;
+    height: 12px;
+    border-radius: 4px;
+    padding: 9px;
+}
+
+.banner .search {
+    position: relative;
+}
+
+.banner .search img {
+    width: 32px;
+    height: 32px;
+    background-color: #5696ff;
+    position: absolute;
+    top: 1px;
+    left: 113px;
+}
+
+.main_info {
+    margin-top: 62px;
+}
+
+.main_info .fl .info {
+    width: 862px;
+    height: 210px;
+    position: relative;
+    margin-bottom: 102px;
+}
+
+.main_info .info .fr {
+    width: 508px;
+}
+
+.main_info .info .fr a {
+    font-size: 14px;
+    color: #5696ff;
+    text-indent: 2em;
+}
+
+.main_info .info .fr p {
+    font-size: 22px;
+    color: #333333;
+    margin-top: 15px;
+}
+
+.main_info .info .fr .time {
+    font-size: 16px;
+    color: #666666;
+    margin-top: 15px;
+}
+
+.main_info .info .fr .price {
+    color: #eb4c4d;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.main_info .info .fr .reserve {
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #5696ff;
+    color: #5696ff;
+    font-size: 22px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.main_info .fr .hot {
+    width: 278px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #5696ff;
+    color: #282828;
+    font-size: 16px;
+    text-align: center;
+}
+
+.main_info .fr .hot_news {
+    width: 272px;
+    height: 72px;
+    margin-top: 34px;
+}
+
+.main_info .fr .hot_news .word {
+    width: 164px;
+}
+
+.main_info .fr .hot_news .word p {
+    font-size: 13px;
+    color: #333333;
+}
+
+.main_info .fr .hot_news .word .price {
+    font-size: 14px;
+    color: #eb4c4d;
+    margin-top: 22px;
+}
+
+.main_info .fr .line {
+    width: 278px;
+    height: 1px;
+    background-color: #e3e3e3;
+    margin-top: 18px;
+}
+
+.page {
+    margin-top: 129px;
+}
+
+.change {
+    width: 197px;
+    height: 59px;
+    border: 1px solid #dcdcdc;
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    line-height: 59px;
+}
+
+.page .num li {
+    width: 50px;
+    line-height: 58px;
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+
+.page .num .act {
+    color: #5696ff;
+}
+
+.page .num li:hover {
+    color: #5696ff;
+}
+
+.bottom {
+    height: 133px;
+    margin-top: 67px;
+    background-color: #5696ff;
+}
+
+.bottom .info {
+    width: 660px;
+    height: 100px;
+    margin: auto;
+    color: #fafafc;
+    line-height: 35px;
+    padding-top: 33px;
+}
